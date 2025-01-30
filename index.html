@@ -33,6 +33,7 @@
           extend: {
             colors: {
               accent: "#179800",
+              secondary: "#EFEBE3",
             },
           },
         },
@@ -47,11 +48,13 @@
   <body class="font sora">
     <!-- header -->
     <header
-      class="bg-gradient-to-t from-[#EFEBE3] to-[#EFEBE3] h-auto max-w-screen-2xl"
+      class="bg-gradient-to-t from-[#EFEBE3] to-[#EFEBE3] w-full   h-auto lg:max-w-screen-2xl"
     >
       <nav class="w-11/12 mx-auto">
         <div class="navbar">
-          <div class="navbar-start flex flex-row-reverse justify-between  w-full lg:w-1/2 ">
+          <div
+            class="navbar-start flex flex-row-reverse justify-between w-full lg:w-1/2"
+          >
             <div class="dropdown">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                 <svg
@@ -96,19 +99,83 @@
         </div>
       </nav>
       <!-- hero section -->
-       <section class="flex flex-col lg:flex items-center justify-center">
-        <div class="text-center mt-20 mb-8 space-y-8">
-            <h3 class="text-5xl font-semibold">Freshness <span class="text-accent">You Can Count <br></span> On, Prices You’ll Love!</h3>
-            <p class="text-xl text-[#111111]">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+      <section class="flex flex-col lg:flex items-center justify-center">
+        <div class="text-center mt-20 mb-8 space-y-8 p-4">
+          <h3 class="text-5xl font-semibold">
+            Freshness <span class="text-accent">You Can Count <br /></span> On,
+            Prices You’ll Love!
+          </h3>
+          <p class="text-xl font-light ">
+            Shop your daily essentials at unbeatable prices. From fresh produce
+            to pantry <br />
+            staples, we’ve got you covered every day!
+          </p>
         </div>
         <div class="flex justify-center">
-            <img class="w-full mb-10 " src="./c2-assets/hero-vegetables.png" alt="">
+          <img class="w-full" src="./c2-assets/hero-vegetables.png" alt="" />
         </div>
-       </section>
+      </section>
     </header>
     <!-- main -->
     <main>
-        
+      <!-- services section -->
+      <section class="my-36 w-11/12 mx-auto">
+        <h3 class="text-accent text-4xl font-semibold mb-8">Services</h3>
+        <!-- card-1 -->
+        <div class="grid grid-cols-1 lg:grid lg:grid-cols-3 gap-6">
+          <div
+            class="bg-secondary rounded-lg flex justify-center items-center flex-col p-8"
+          >
+            <div
+              class="bg-white w-36 h-36 rounded-full flex justify-center items-center"
+            >
+              <img class="w-24" src="./c2-assets/service.png" alt="" />
+            </div>
+            <h3 class="font-semibold text-xl">24/7 Services</h3>
+            <p class="font-light text-xl">
+              We’re available around the clock to <br />
+              serve you anytime, ensuring convenience <br />
+              and reliability whenever you need us.
+            </p>
+          </div>
+
+          <!-- card-2 -->
+
+          <div
+            class="bg-secondary rounded-lg flex justify-center items-center flex-col p-8"
+          >
+            <div
+              class="bg-white w-36 h-36 rounded-full flex justify-center items-center"
+            >
+              <img class="w-24" src="./c2-assets/delivery.png" alt="" />
+            </div>
+            <h3 class="font-semibold text-xl">Fast Delivery</h3>
+            <p class="font-light text-xl">
+              Get your orders delivered swiftly with <br />
+              our efficient and timely service, <br />
+              ensuring freshness and quality every time <br />
+            </p>
+          </div>
+
+          <!-- card-3 -->
+
+          <div
+            class="bg-secondary rounded-lg flex justify-center items-center flex-col p-8"
+          >
+            <div
+              class="bg-white w-36 h-36 rounded-full flex justify-center items-center"
+            >
+              <img class="w-24" src="./c2-assets/healthy.png" alt="" />
+            </div>
+            <h3 class="font-semibold text-xl">Healthy Products</h3>
+            <p class="font-light text-xl">
+              We offer fresh, high-quality, <br />
+              and nutritious products to support <br />
+              a healthy lifestyle for you and your family.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- footer -->
     <footer></footer>
