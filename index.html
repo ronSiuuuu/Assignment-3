@@ -43,25 +43,23 @@
       .sora {
         font-family: "Sora", serif;
       }
-      .adlam-display{
-  font-family: "ADLaM Display", serif;
-  font-weight: 400;
-  font-style: normal;
-}
+      .adlam-display {
+        font-family: "ADLaM Display", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
     </style>
   </head>
   <body class="font sora">
     <!-- header -->
-    <header
-      class="bg-gradient-to-t from-[#EFEBE3] to-[#EFEBE3] "
-    >
+    <header class="bg-gradient-to-t from-[#EFEBE3] to-[#EFEBE3]">
       <nav class="w-11/12 mx-auto">
-        <div class="navbar">
+        <div class="navbar border-b border-accent lg:border-b-0">
           <div
-            class="navbar-start flex flex-row-reverse justify-between w-full lg:w-1/2"
+            class="navbar-start  flex flex-row-reverse justify-between w-full lg:w-1/2"
           >
             <div class="dropdown">
-              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <div tabindex="0" role="button" class="btn btn-ghost text-accent lg:hidden">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-5 w-5"
@@ -110,7 +108,7 @@
             Freshness <span class="text-accent">You Can Count <br /></span> On,
             Prices You’ll Love!
           </h3>
-          <p class="text-xl font-light ">
+          <p class="text-xl font-light">
             Shop your daily essentials at unbeatable prices. From fresh produce
             to pantry <br />
             staples, we’ve got you covered every day!
@@ -182,163 +180,274 @@
         </div>
       </section>
       <!-- popular product -->
-       <section class=" bg-secondary    lg:px-4 ">
-        <h3 class="text-accent font-semibold text-3xl w-11/12 mx-auto pt-32">Popular Products</h3>
-<!-- popular card container  -->
-        <div class=" w-11/12 mx-auto pb-36 mt-8 lg:flex gap-6  ">
-            <!-- offer card -->
-            <div class="bg-gradient-to-tl from-[#17980073]  to-[#179800]  w-96 rounded-lg h-96 p-8 space-y-4 relative">
-                <h3 class="text-white text-3xl adlam-display">30% off</h3>
-                <p>Discover a world of treats, toys, and essentials handpicked for </p>
-                <button class="btn bg-white">Buy Now</button>
-                <img class="absolute right-0 bottom-0" src="./c2-assets/vegetable-offer.png" alt="">
-            </div>
-           
-             <div class="grid grid-cols-2 md:grid-cols-3 gap-3 pt-8">
-                    <!-- Product Card  -->
-                    <div class="bg-white shadow-md rounded-lg flex items-center h-24 p-3 w-full">
-                      <div class="w-16 h-16 bg-secondary rounded-lg flex items-center justify-center">
-                        <img class="p-2" src="./c2-assets/image 43.png" alt="Onion">
-                      </div>
-                      <div class="ml-3">
-                        <h3><i class="fa-solid fa-star text-yellow-400"></i> 4.5</h3>
-                        <h3 class="text-sm lg:text-xl font-medium">Onion 1 KG</h3>
-                        <h3 class="font-medium text-base">$39.99</h3>
-                      </div>
-                    </div>
-              
-                    <div class="bg-white shadow-md rounded-lg flex items-center h-24 p-3 w-full">
-                      <div class="w-16 h-16 bg-secondary rounded-lg flex items-center justify-center">
-                        <img class="p-2" src="./c2-assets/image 44.png" alt="Potato">
-                      </div>
-                      <div class="ml-3">
-                        <h3><i class="fa-solid fa-star text-yellow-400"></i> 4.5</h3>
-                        <h3 class="text-sm lg:text-xl font-medium">Potato 1 KG</h3>
-                        <h3 class="font-medium text-base">$39.99</h3>
-                      </div>
-                    </div>
-              
-                    <div class="bg-white shadow-md rounded-lg flex items-center h-24 p-3 w-full">
-                      <div class="w-16 h-16 bg-secondary rounded-lg flex items-center justify-center">
-                        <img class="p-2" src="./c2-assets/image 41.png" alt="Tomato">
-                      </div>
-                      <div class="ml-3">
-                        <h3><i class="fa-solid fa-star text-yellow-400"></i> 4.5</h3>
-                        <h3 class="text-sm lg:text-xl font-medium">Tomato 1 KG</h3>
-                        <h3 class="font-medium text-base">$39.99</h3>
-                      </div>
-                    </div>
-              
-                    <!-- Repeat products -->
-                    <div class="bg-white shadow-md rounded-lg flex items-center h-24 p-3 w-full">
-                      <div class="w-16 h-16 bg-secondary rounded-lg flex items-center justify-center">
-                        <img class="p-2" src="./c2-assets/image 43.png" alt="Onion">
-                      </div>
-                      <div class="ml-3">
-                        <h3><i class="fa-solid fa-star text-yellow-400"></i> 4.5</h3>
-                        <h3 class="text-sm lg:text-xl font-medium">Onion 1 KG</h3>
-                        <h3 class="font-medium text-base">$39.99</h3>
-                      </div>
-                    </div>
-              
-                    <div class="bg-white shadow-md rounded-lg flex items-center h-24 p-3 w-full">
-                      <div class="w-16 h-16 bg-secondary rounded-lg flex items-center justify-center">
-                        <img class="p-2" src="./c2-assets/image 41.png" alt="Tomato">
-                      </div>
-                      <div class="ml-3">
-                        <h3><i class="fa-solid fa-star text-yellow-400"></i> 4.5</h3>
-                        <h3 class="text-sm lg:text-xl font-medium">Tomato 1 KG</h3>
-                        <h3 class="font-medium text-base">$39.99</h3>
-                      </div>
-                    </div>
-              
-                    <div class="bg-white shadow-md rounded-lg flex items-center h-24 p-3 w-full hidden lg:flex">
-                      <div class="w-16 h-16 bg-secondary rounded-lg flex items-center justify-center">
-                        <img class="p-2" src="./c2-assets/image 44.png" alt="Potato">
-                      </div>
-                      <div class="ml-3">
-                        <h3><i class="fa-solid fa-star text-yellow-400"></i> 4.5</h3>
-                        <h3 class="text-sm lg:text-xl font-medium">Potato 1 KG</h3>
-                        <h3 class="font-medium text-base">$39.99</h3>
-                      </div>
-                    </div>
-                      <!-- Product Card (Reusable) -->
-                      <div class="bg-white shadow-md rounded-lg flex items-center h-24 p-3 w-full">
-                        <div class="w-16 h-16 bg-secondary rounded-lg flex items-center justify-center">
-                          <img class="p-2" src="./c2-assets/image 43.png" alt="Onion">
-                        </div>
-                        <div class="ml-3">
-                          <h3><i class="fa-solid fa-star text-yellow-400"></i> 4.5</h3>
-                          <h3 class="text-sm lg:text-xl font-medium">Onion 1 KG</h3>
-                          <h3 class="font-medium text-base">$39.99</h3>
-                        </div>
-                      </div>
-                
-                      <div class="bg-white shadow-md rounded-lg flex items-center h-24 p-3 w-full">
-                        <div class="w-16 h-16 bg-secondary rounded-lg flex items-center justify-center">
-                          <img class="p-2" src="./c2-assets/image 44.png" alt="Potato">
-                        </div>
-                        <div class="ml-3">
-                          <h3><i class="fa-solid fa-star text-yellow-400"></i> 4.5</h3>
-                          <h3 class=" text-sm lg:text-xl font-medium">Potato 1 KG</h3>
-                          <h3 class="font-medium text-base">$39.99</h3>
-                        </div>
-                      </div>
-                
-                      <div class="bg-white shadow-md rounded-lg flex items-center h-24 p-3 w-full">
-                        <div class="w-16 h-16 bg-secondary rounded-lg flex items-center justify-center">
-                          <img class="p-2" src="./c2-assets/image 41.png" alt="Tomato">
-                        </div>
-                        <div class="ml-3">
-                          <h3><i class="fa-solid fa-star text-yellow-400"></i> 4.5</h3>
-                          <h3 class=" text-sm lg:text-xl font-medium">Tomato 1 KG</h3>
-                          <h3 class="font-medium text-base">$39.99</h3>
-                        </div>
-                      </div>
-                  </div>
-                
-             
-              
-                
-                  
-            
+      <section class="bg-secondary lg:px-4">
+        <h3 class="text-accent font-semibold text-3xl w-11/12 mx-auto pt-32">
+          Popular Products
+        </h3>
+        <!-- popular card container  -->
+        <div class="w-11/12 mx-auto pb-36 mt-8 lg:flex gap-6">
+          <!-- offer card -->
+          <div
+            class="bg-gradient-to-tl from-[#17980073] to-[#179800] w-96 rounded-lg h-96 p-8 space-y-4 relative"
+          >
+            <h3 class="text-white text-3xl adlam-display">30% off</h3>
+            <p>
+              Discover a world of treats, toys, and essentials handpicked for
+            </p>
+            <button class="btn bg-white">Buy Now</button>
+            <img
+              class="absolute right-0 bottom-0"
+              src="./c2-assets/vegetable-offer.png"
+              alt=""
+            />
+          </div>
 
-
-        </div>
-       </section>
-
-
-       <!-- Arrival & Offers section -->
-        <section class="w-11/12 mx-auto mt-36 mb-40">
-            <h3 class="font-semibold text-4xl text-accent mb-12">Arrival & Offers</h3> 
-            <div class=" space-y-3 lg:flex gap-5">
-                <!-- dawat card -->
-              <div class="bg-[#115414] rounded-lg flex w-full max-w-screen-sm items-center justify-center ">
-<div class="p-3 lg:p-10 flex items-center justify-center flex-col gap-5" >
-<img src="./c2-assets/image 54.png" alt="">
-<button class="btn lg:btn-lg  lg:text-lg bg-[#63B76D] text-white border-none">Cook Exotic Dishes</button>
-<h3 class=" lg:text-3xl text-white text-center">UP to <span class="font-bold">20% OFF</span></h3>
-</div>
-<div>
-    <img class="pt-2 lg:pt-8" src="./c2-assets/dawat-mock-up.png" alt="">
-</div>
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-3 pt-8">
+            <!-- Product Card  -->
+            <div
+              class="bg-white shadow-md rounded-lg flex items-center h-24 p-3 w-full"
+            >
+              <div
+                class="w-16 h-16 bg-secondary rounded-lg flex items-center justify-center"
+              >
+                <img class="p-2" src="./c2-assets/image 43.png" alt="Onion" />
               </div>
-              <!-- india gate card -->
-              <div class="bg-[#102861] rounded-lg flex sm: justify-between   ">
-                <div class=" lg:p-10 p-3 space-y-2 lg:space-y-3" >
-                <img  src="./c2-assets/india-gate-logo.png" alt="">
-                <button class="btn lg:btn-lg lg:text-lg bg-[#2A4D97] text-white border-none">World’s No.1 Rice</button>
-                <h3 class="lg:text-3xl text-white text-center">UP to <span class="font-bold">40% OFF</span></h3>
-                </div>
-                <div>
-                    <img class="lg:w-full lg:pt-8 lg:pr-3 w-4/5" src="./c2-assets/india-gate-mock-up.png" alt="">
-                </div>
-                              </div>
-              
+              <div class="ml-3">
+                <h3><i class="fa-solid fa-star text-yellow-400"></i> 4.5</h3>
+                <h3 class="text-sm lg:text-xl font-medium">Onion 1 KG</h3>
+                <h3 class="font-medium text-base">$39.99</h3>
+              </div>
             </div>
-        </section>
+
+            <div
+              class="bg-white shadow-md rounded-lg flex items-center h-24 p-3 w-full"
+            >
+              <div
+                class="w-16 h-16 bg-secondary rounded-lg flex items-center justify-center"
+              >
+                <img class="p-2" src="./c2-assets/image 44.png" alt="Potato" />
+              </div>
+              <div class="ml-3">
+                <h3><i class="fa-solid fa-star text-yellow-400"></i> 4.5</h3>
+                <h3 class="text-sm lg:text-xl font-medium">Potato 1 KG</h3>
+                <h3 class="font-medium text-base">$39.99</h3>
+              </div>
+            </div>
+
+            <div
+              class="bg-white shadow-md rounded-lg flex items-center h-24 p-3 w-full"
+            >
+              <div
+                class="w-16 h-16 bg-secondary rounded-lg flex items-center justify-center"
+              >
+                <img class="p-2" src="./c2-assets/image 41.png" alt="Tomato" />
+              </div>
+              <div class="ml-3">
+                <h3><i class="fa-solid fa-star text-yellow-400"></i> 4.5</h3>
+                <h3 class="text-sm lg:text-xl font-medium">Tomato 1 KG</h3>
+                <h3 class="font-medium text-base">$39.99</h3>
+              </div>
+            </div>
+
+            <!-- Repeat products -->
+            <div
+              class="bg-white shadow-md rounded-lg flex items-center h-24 p-3 w-full"
+            >
+              <div
+                class="w-16 h-16 bg-secondary rounded-lg flex items-center justify-center"
+              >
+                <img class="p-2" src="./c2-assets/image 43.png" alt="Onion" />
+              </div>
+              <div class="ml-3">
+                <h3><i class="fa-solid fa-star text-yellow-400"></i> 4.5</h3>
+                <h3 class="text-sm lg:text-xl font-medium">Onion 1 KG</h3>
+                <h3 class="font-medium text-base">$39.99</h3>
+              </div>
+            </div>
+
+            <div
+              class="bg-white shadow-md rounded-lg flex items-center h-24 p-3 w-full"
+            >
+              <div
+                class="w-16 h-16 bg-secondary rounded-lg flex items-center justify-center"
+              >
+                <img class="p-2" src="./c2-assets/image 41.png" alt="Tomato" />
+              </div>
+              <div class="ml-3">
+                <h3><i class="fa-solid fa-star text-yellow-400"></i> 4.5</h3>
+                <h3 class="text-sm lg:text-xl font-medium">Tomato 1 KG</h3>
+                <h3 class="font-medium text-base">$39.99</h3>
+              </div>
+            </div>
+
+            <div
+              class="bg-white shadow-md rounded-lg flex items-center h-24 p-3 w-full hidden lg:flex"
+            >
+              <div
+                class="w-16 h-16 bg-secondary rounded-lg flex items-center justify-center"
+              >
+                <img class="p-2" src="./c2-assets/image 44.png" alt="Potato" />
+              </div>
+              <div class="ml-3">
+                <h3><i class="fa-solid fa-star text-yellow-400"></i> 4.5</h3>
+                <h3 class="text-sm lg:text-xl font-medium">Potato 1 KG</h3>
+                <h3 class="font-medium text-base">$39.99</h3>
+              </div>
+            </div>
+            <!-- Product Card (Reusable) -->
+            <div
+              class="bg-white shadow-md rounded-lg flex items-center h-24 p-3 w-full"
+            >
+              <div
+                class="w-16 h-16 bg-secondary rounded-lg flex items-center justify-center"
+              >
+                <img class="p-2" src="./c2-assets/image 43.png" alt="Onion" />
+              </div>
+              <div class="ml-3">
+                <h3><i class="fa-solid fa-star text-yellow-400"></i> 4.5</h3>
+                <h3 class="text-sm lg:text-xl font-medium">Onion 1 KG</h3>
+                <h3 class="font-medium text-base">$39.99</h3>
+              </div>
+            </div>
+
+            <div
+              class="bg-white shadow-md rounded-lg flex items-center h-24 p-3 w-full"
+            >
+              <div
+                class="w-16 h-16 bg-secondary rounded-lg flex items-center justify-center"
+              >
+                <img class="p-2" src="./c2-assets/image 44.png" alt="Potato" />
+              </div>
+              <div class="ml-3">
+                <h3><i class="fa-solid fa-star text-yellow-400"></i> 4.5</h3>
+                <h3 class="text-sm lg:text-xl font-medium">Potato 1 KG</h3>
+                <h3 class="font-medium text-base">$39.99</h3>
+              </div>
+            </div>
+
+            <div
+              class="bg-white shadow-md rounded-lg flex items-center h-24 p-3 w-full"
+            >
+              <div
+                class="w-16 h-16 bg-secondary rounded-lg flex items-center justify-center"
+              >
+                <img class="p-2" src="./c2-assets/image 41.png" alt="Tomato" />
+              </div>
+              <div class="ml-3">
+                <h3><i class="fa-solid fa-star text-yellow-400"></i> 4.5</h3>
+                <h3 class="text-sm lg:text-xl font-medium">Tomato 1 KG</h3>
+                <h3 class="font-medium text-base">$39.99</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Arrival & Offers section -->
+      <section class="w-11/12 mx-auto mt-36 ">
+        <h3 class="font-semibold text-4xl text-accent mb-12">
+          Arrival & Offers
+        </h3>
+        <div class="space-y-3 lg:flex gap-5">
+          <!-- dawat card -->
+          <div
+            class="bg-[#115414] rounded-lg flex w-full max-w-screen-sm items-center justify-center"
+          >
+            <div
+              class="p-3 lg:p-10 flex items-center justify-center flex-col gap-5"
+            >
+              <img src="./c2-assets/image 54.png" alt="" />
+              <button
+                class="btn lg:btn-lg lg:text-lg bg-[#63B76D] text-white border-none"
+              >
+                Cook Exotic Dishes
+              </button>
+              <h3 class="lg:text-3xl text-white text-center">
+                UP to <span class="font-bold">20% OFF</span>
+              </h3>
+            </div>
+            <div>
+              <img
+                class="pt-2 lg:pt-8"
+                src="./c2-assets/dawat-mock-up.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <!-- india gate card -->
+          <div class="bg-[#102861] rounded-lg flex sm: justify-between">
+            <div class="lg:p-10 p-3 space-y-2 lg:space-y-3">
+              <img src="./c2-assets/india-gate-logo.png" alt="" />
+              <button
+                class="btn lg:btn-lg lg:text-lg bg-[#2A4D97] text-white border-none"
+              >
+                World’s No.1 Rice
+              </button>
+              <h3 class="lg:text-3xl text-white text-center">
+                UP to <span class="font-bold">40% OFF</span>
+              </h3>
+            </div>
+            <div>
+              <img
+                class="lg:w-full lg:pt-8 lg:pr-3 w-4/5"
+                src="./c2-assets/india-gate-mock-up.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- grocery News -->
+      <section class="w-11/12 mx-auto bg-secondary rounded-lg relative -bottom-52 max-w-screen-lg">
+        <div class="">
+          <div class="hero-content flex-col lg:flex-row justify-evenly">
+            <img
+              src="./c2-assets/vegetable-busket.png"
+              
+            />
+            <div class="space-y-6">
+              <h1 class="text-4xl font-semibold ">Get Grocery News!</h1>
+              <p class="">
+                Exclusive training tips, ticks, product deals and more.
+              </p>
+              <input
+                type="text"
+                placeholder="Enter email...."
+                class="input input-bordered input-md w-full max-w-xs"
+              />
+              <a class="btn btn-wide bg-accent text-white">Subscribe</a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- footer -->
-    <footer></footer>
+    <footer class="footer bg-accent p-10">
+       
+         <div class="w-11/12 mx-auto  lg:flex justify-between mt-80">
+             <div class=" flex flex-col">
+                 <img class="max-w-40"  src="./c2-assets/logo-footer.png" alt="">
+                         <p class="font-light text-white ">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
+                 
+             </div>
+                     <nav class=" flex flex-col font-light text-white space-y-4 mt-8 lg:mt-0 ">
+             
+              <a class="link link-hover">Product</a>
+              <a class="link link-hover">Services</a>
+              <a class="link link-hover">Contact Us</a>
+             
+                     </nav>
+              <div class="flex flex-col text-white mt-16 ">
+                  <h6 class="footer-title">Follow Us</h6>
+                  <div class="flex gap-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                  </div>
+              </div>
+         </div>
+         
+      </footer>
   </body>
 </html>
